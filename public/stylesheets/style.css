@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #073642;
+}
+
+a {
+  color: #00B7FF;
+}
+
+span {
+  display: inline-block;
+  background-color: #2aa198;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  border: solid 2px #d33682;
+  width: 150px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+span:nth-child(odd) {
+  margin-right: 50px;
+}
+
+#buttons {
+  width: 420px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #859900;
+}
